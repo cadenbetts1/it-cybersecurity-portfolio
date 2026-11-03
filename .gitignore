@@ -1,0 +1,21 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*secret*
+*password*
+# VM and disk artifacts
+*.vhd
+*.vhdx
+*.vmdk
+*.vdi
+*.iso
+# Operating system
+.DS_Store
+Thumbs.db
+# Editor
+.vscode/
